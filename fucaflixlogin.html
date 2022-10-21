@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="fucaflixlogin.css">
+</head>
+<body>
+    
+    <div class="nav" id="nav">
+        <a id="fucaflix" href="fucaflixindex.html"><h2>FUCAFLIX</h2></a> 
+        <a class="links-nav" href="fucaflixlogin.html">Login</a>
+        <a class="links-nav" href="fucaflixcadastro.html">Cadastrar</a>
+        <a class="links-nav" href="filmes.php">Categorias</a>
+    </div>
+    <div class="container">
+            <form action="logar.php" method="POST" class="form">
+                <label for="form">Email</label> 
+                    <input placeholder="Insira o seu nome" type="text" name="nome" id="nome">
+                <label for="form">Senha</label>
+                    <input placeholder="Senha" type="password" name="senha1" id="senha">
+            
+                    <button name="login" type="submit">Entrar</button>
+
+                </form>
+            <h3>
+                Não tem conta ? Então  <a href="fucaflixcadastro.html">Cadastre-se</a>
+            </h3>
+    </div>
+
+
+</body>
+</html>

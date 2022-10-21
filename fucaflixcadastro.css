@@ -1,0 +1,93 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    background-image: url(https://1cb8228234.cbaul-cdnwnd.com/6f66337f060be06e7475456bc0272d1b/200000004-54f6254f65/BR-pt-20200706-popsignuptwoweeks-perspective_alpha_website_large.jpg?ph=1cb8228234);    
+}
+.nav {
+    background-color: #141414;
+    display: flex;
+    height: 60px;
+    font-family: Arial;
+    border-bottom: 1px solid #2B6490;
+}   
+.nav a {
+    text-decoration: none;
+    margin: 15px 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+.nav a:hover {
+    color: #2B6490;
+    transition: 0.5s all ease;
+   
+}
+.nav #home-home {
+    margin-left: 50px;
+}
+
+#fucaflix {
+    color: #2a82c5;
+    align-items: center;
+}
+
+.container {
+    height: 350px;
+    width: 60%;
+    background-color: #1f1f20d5;
+    border-radius: 40px;
+    margin: 5% auto;
+    font-family: Arial;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.container label {
+    margin: 10px;
+    font-size: 18px;
+}
+.container input, select{
+    border: 1px solid #2a82c5;
+    border-radius: 40px;
+    background-color: #141414;
+    width: 15rem;
+    height: 45px;
+    margin: 20px;
+    padding-left: 15px;
+    color: #fff;
+}
+select {
+    width: 260px;
+    color: #2a82c5;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.form button {
+    width: 260px;
+    height: 45px;
+    border: 1px solid #2a82c5;
+    border-radius: 40px;
+    background-color: #2a82c5;
+    color: #fff;
+    font-family: 'Arial';
+    font-weight: 600;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #141414;
+    color: #2a82c5;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
